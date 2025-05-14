@@ -1,0 +1,136 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.service {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.total {
+    font-weight: bold;
+}
+
+.empty-cart {
+    font-style: italic;
+    color: #777;
+}
+
+.checkout-button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.admin-nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: blue;
+}
+
+.section {
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+.profile-info {
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+.profile-info p {
+    margin-bottom: 8px;
+}
+
+.form-container {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.booked-events ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.booked-events li {
+    margin-bottom: 5px;
+}
